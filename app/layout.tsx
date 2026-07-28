@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/og.png",
-        width: 1743,
+        width: 1731,
         height: 909,
         alt: "Alessandro Allegri — Industrial chemistry for circular processes",
       },
