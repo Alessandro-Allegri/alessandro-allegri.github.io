@@ -89,22 +89,22 @@ export default function Home() {
             </p>
           </div>
           <div className="focus-grid">
-            <article>
-              <span>01</span>
-              <h3>Biomass valorisation</h3>
-              <p>
-                Heterogeneous and multifunctional catalysts for upgrading
-                biomass-derived platform molecules into fuels, solvents, and
-                chemical intermediates.
-              </p>
-            </article>
             <article className="focus-featured">
-              <span>02</span>
+              <span>01</span>
               <h3>Process intelligence</h3>
               <p>
                 DoE, response-surface and phenomenological modelling, and
                 machine learning to extract more insight from experiments and
                 optimise complex processes.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Biomass valorisation</h3>
+              <p>
+                Heterogeneous and multifunctional catalysts for upgrading
+                biomass-derived platform molecules into fuels, solvents, and
+                chemical intermediates.
               </p>
             </article>
             <article>
