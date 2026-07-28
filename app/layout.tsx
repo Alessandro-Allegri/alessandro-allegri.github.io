@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     template: "%s — Alessandro Allegri",
   },
   description:
-    "Research in industrial chemistry, heterogeneous catalysis, biomass valorisation, and circular chemical processes at the University of Bologna.",
+    "Research in industrial chemistry, heterogeneous catalysis, Design of Experiments, machine learning, biomass valorisation, and circular chemical processes at the University of Bologna.",
   icons: {
-    icon: "/alessandro-allegri.png",
-    shortcut: "/alessandro-allegri.png",
+    icon: "/alessandro-allegri.jpg",
+    shortcut: "/alessandro-allegri.jpg",
   },
   openGraph: {
     title: "Alessandro Allegri — Industrial Chemistry Research",

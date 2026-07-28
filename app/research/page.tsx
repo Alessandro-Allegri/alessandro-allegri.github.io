@@ -7,8 +7,8 @@ import { citedPublications } from "../data";
 export const metadata: Metadata = {
   title: "Research",
   description:
-    "Current research interests, methods, collaborations, and most-cited publications of Alessandro Allegri.",
-  alternates: { canonical: "/research" },
+    "Research in catalysis, Design of Experiments, process modelling, machine learning, circular chemistry, and industrial residue valorisation.",
+  alternates: { canonical: "/research.html" },
 };
 
 const researchAreas = [
@@ -20,9 +20,9 @@ const researchAreas = [
   },
   {
     number: "02",
-    title: "CO₂ and industrial residues",
-    text: "Non-reductive carbon dioxide conversion, mineralisation, and the valorisation of alkaline industrial residues as lower-impact constituents for materials and cement.",
-    tags: ["CO₂ mineralisation", "Circular materials", "Industrial waste"],
+    title: "Design of Experiments, modelling & machine learning",
+    text: "Design of Experiments (DoE), response-surface methods, phenomenological modelling, and machine-learning approaches that turn experimental data into interpretable, robust process decisions.",
+    tags: ["Design of Experiments", "Process modelling", "Machine learning"],
   },
   {
     number: "03",
@@ -32,13 +32,30 @@ const researchAreas = [
   },
   {
     number: "04",
-    title: "Process modelling & optimisation",
-    text: "Experimental design, phenomenological modelling, and machine learning approaches that connect chemical insight to robust industrial process decisions.",
-    tags: ["Design of experiments", "Modelling", "Machine learning"],
+    title: "CO₂ and industrial residues",
+    text: "Non-reductive carbon dioxide conversion, mineralisation, and the valorisation of alkaline industrial residues as lower-impact constituents for materials and cement.",
+    tags: ["CO₂ mineralisation", "Circular materials", "Industrial waste"],
   },
 ];
 
-const collaborations = [
+const closeCollaborators = [
+  {
+    name: "Stefania Albonetti",
+    unibo: "https://www.unibo.it/sitoweb/stefania.albonetti/en",
+    orcid: "https://orcid.org/0000-0002-2371-3228",
+    scholar:
+      "https://scholar.google.com/citations?user=0XUF8REAAAAJ&hl=en&oi=ao",
+  },
+  {
+    name: "Nikolaos Dimitratos",
+    unibo: "https://www.unibo.it/sitoweb/nikolaos.dimitratos/en",
+    orcid: "https://orcid.org/0000-0002-6620-4335",
+    scholar:
+      "https://scholar.google.com/citations?user=fKyJ5CQAAAAJ&hl=en&oi=ao",
+  },
+];
+
+const researchNetworks = [
   {
     place: "Bologna, Italy",
     title: "University of Bologna · C3 Centre for Chemical Catalysis",
@@ -70,13 +87,13 @@ export default function ResearchPage() {
           <div className="shell research-hero-inner">
             <div>
               <p className="eyebrow eyebrow-light">Research</p>
-              <h1>Designing better chemistry by understanding the process.</h1>
+              <h1>Designing better chemistry with experiments, models, and data.</h1>
             </div>
             <div className="research-hero-note">
               <span>Current aim</span>
               <p>
-                Connect catalytic materials, reaction engineering, and
-                data-informed optimisation to advance resource-efficient
+                Connect catalytic materials, Design of Experiments, process
+                modelling, and machine learning to advance resource-efficient
                 industrial chemistry.
               </p>
             </div>
@@ -93,8 +110,9 @@ export default function ResearchPage() {
             <p className="eyebrow">Current interests</p>
             <h2 id="areas-title">A connected research programme.</h2>
             <p>
-              The same question runs through each strand: how can chemistry use
-              carbon, energy, and materials more intelligently?
+              The same question runs through each strand: how can chemistry
+              learn more from each experiment while using carbon, energy, and
+              materials more intelligently?
             </p>
           </div>
           <div className="area-list">
@@ -123,12 +141,57 @@ export default function ResearchPage() {
                 <h2 id="collab-title">Research is a team reaction.</h2>
               </div>
               <p>
-                Selected institutional relationships reflected in recent joint
-                publications and project work.
+                Close collaborators and selected institutional relationships
+                reflected in recent joint publications and project work.
               </p>
             </div>
+            <div className="close-collaborators">
+              <p className="collaboration-kicker">Close collaborators</p>
+              <div className="collaborator-grid">
+                {closeCollaborators.map((collaborator) => (
+                  <article className="collaborator-card" key={collaborator.name}>
+                    <span>University of Bologna</span>
+                    <h3>
+                      <a
+                        href={collaborator.unibo}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {collaborator.name} <i aria-hidden="true">↗</i>
+                      </a>
+                    </h3>
+                    <div className="collaborator-links">
+                      <a
+                        href={collaborator.unibo}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        UniBo profile
+                      </a>
+                      <a
+                        href={collaborator.orcid}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        ORCID
+                      </a>
+                      <a
+                        href={collaborator.scholar}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Google Scholar
+                      </a>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </div>
+            <p className="collaboration-kicker network-kicker">
+              Institutional network
+            </p>
             <div className="collaboration-grid">
-              {collaborations.map((collaboration) => (
+              {researchNetworks.map((collaboration) => (
                 <article key={collaboration.title}>
                   <span>{collaboration.place}</span>
                   <h3>{collaboration.title}</h3>

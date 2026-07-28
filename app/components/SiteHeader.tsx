@@ -1,10 +1,8 @@
-import Link from "next/link";
-
 const navigation = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About & CV" },
-  { href: "/research", label: "Research" },
-  { href: "/contact", label: "Contact" },
+  { href: "/about.html", label: "About & CV" },
+  { href: "/research.html", label: "Research" },
+  { href: "/contact.html", label: "Contact" },
 ];
 
 export function SiteHeader() {
@@ -14,7 +12,7 @@ export function SiteHeader() {
         Skip to content
       </a>
       <div className="shell header-inner">
-        <Link className="wordmark" href="/" aria-label="Alessandro Allegri home">
+        <a className="wordmark" href="/" aria-label="Alessandro Allegri home">
           <span className="wordmark-mark" aria-hidden="true">
             AA
           </span>
@@ -22,12 +20,12 @@ export function SiteHeader() {
             Alessandro Allegri
             <small>Industrial Chemistry</small>
           </span>
-        </Link>
+        </a>
         <nav className="main-nav" aria-label="Primary navigation">
           {navigation.map((item) => (
-            <Link href={item.href} key={item.href}>
+            <a href={item.href} key={item.href}>
               {item.label}
-            </Link>
+            </a>
           ))}
         </nav>
       </div>

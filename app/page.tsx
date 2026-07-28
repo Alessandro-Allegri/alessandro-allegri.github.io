@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { FooterContact } from "./components/FooterContact";
 import { PublicationFeed } from "./components/PublicationFeed";
 import { SiteHeader } from "./components/SiteHeader";
@@ -20,15 +19,16 @@ export default function Home() {
             <p className="hero-lede">
               I develop catalytic materials and process strategies that turn
               renewable feedstocks and industrial residues into useful
-              products—with experiments, modelling, and data working together.
+              products—with Design of Experiments, process modelling, and
+              machine learning guiding better decisions.
             </p>
             <div className="button-row">
-              <Link className="button button-primary" href="/research">
+              <a className="button button-primary" href="/research.html">
                 Explore my research <span aria-hidden="true">↗</span>
-              </Link>
-              <Link className="button button-secondary" href="/contact">
+              </a>
+              <a className="button button-secondary" href="/contact.html">
                 Get in touch
-              </Link>
+              </a>
             </div>
             <div className="hero-affiliation">
               <span className="status-dot" aria-hidden="true" />
@@ -39,10 +39,10 @@ export default function Home() {
           <div className="portrait-wrap">
             <div className="portrait-frame">
               <img
-                src="/alessandro-allegri.png"
+                src="/alessandro-allegri.jpg"
                 alt="Alessandro Allegri"
-                width={640}
-                height={640}
+                width={960}
+                height={1280}
               />
             </div>
             <div className="portrait-caption">
@@ -83,9 +83,9 @@ export default function Home() {
               <h2>From molecules to processes.</h2>
             </div>
             <p>
-              My work connects catalyst design with practical process
-              optimisation, keeping industrial relevance and circularity in
-              view.
+              My work connects catalyst design with Design of Experiments
+              (DoE), process modelling, and machine learning—always with
+              industrial relevance and circularity in view.
             </p>
           </div>
           <div className="focus-grid">
@@ -98,29 +98,29 @@ export default function Home() {
                 chemical intermediates.
               </p>
             </article>
-            <article>
+            <article className="focus-featured">
               <span>02</span>
-              <h3>CO₂ mineralisation</h3>
+              <h3>Process intelligence</h3>
+              <p>
+                DoE, response-surface and phenomenological modelling, and
+                machine learning to extract more insight from experiments and
+                optimise complex processes.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>CO₂ & industrial residues</h3>
               <p>
                 Non-reductive carbon dioxide conversion and the reuse of
                 industrial alkaline residues as resources for lower-impact
                 materials.
               </p>
             </article>
-            <article>
-              <span>03</span>
-              <h3>Process intelligence</h3>
-              <p>
-                Experimental design, phenomenological modelling, and machine
-                learning to understand and optimise complex industrial
-                processes.
-              </p>
-            </article>
           </div>
-          <Link className="text-link" href="/research">
+          <a className="text-link" href="/research.html">
             Research interests and collaborations{" "}
             <span aria-hidden="true">→</span>
-          </Link>
+          </a>
         </section>
 
         <div className="shell">

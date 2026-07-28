@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { FooterContact } from "../components/FooterContact";
 import { SiteHeader } from "../components/SiteHeader";
 import { profileLinks } from "../data";
@@ -8,7 +7,7 @@ export const metadata: Metadata = {
   title: "About & CV",
   description:
     "Biography, academic appointments, education, and curriculum vitae of Alessandro Allegri.",
-  alternates: { canonical: "/about" },
+  alternates: { canonical: "/about.html" },
 };
 
 const education = [
@@ -47,18 +46,19 @@ export default function AboutPage() {
           </div>
           <p className="page-hero-lede">
             I am an industrial chemist interested in how carefully designed
-            catalysts—and the right process model—can make chemical production
-            more circular, efficient, and resource-aware.
+            catalysts—and the right experimental design and process model—can
+            make chemical production more circular, efficient, and
+            resource-aware.
           </p>
         </section>
 
         <section className="shell bio-grid">
           <div className="bio-photo">
             <img
-              src="/alessandro-allegri.png"
+              src="/alessandro-allegri.jpg"
               alt="Portrait of Alessandro Allegri"
-              width={640}
-              height={640}
+              width={960}
+              height={1280}
             />
             <p>
               Junior Assistant Professor (fixed-term)
@@ -69,8 +69,8 @@ export default function AboutPage() {
           <div className="bio-copy">
             <p className="eyebrow">Profile</p>
             <h2>
-              Catalytic materials, process understanding, and measurable
-              impact.
+              Catalytic materials, designed experiments, and data-informed
+              process understanding.
             </h2>
             <p>
               Alessandro Allegri is a researcher at the University of Bologna,
@@ -80,11 +80,11 @@ export default function AboutPage() {
               carbon dioxide.
             </p>
             <p>
-              His current work brings experimental design and phenomenological
-              modelling into process optimisation. It spans heterogeneous
-              catalysis, polymer–inorganic composite materials, nanoparticle
-              synthesis, thermal and photocatalytic routes, and the emerging
-              use of machine learning in industrial chemistry.
+              His current work gives Design of Experiments, phenomenological
+              modelling, and machine learning a central role in process
+              optimisation. These methods complement heterogeneous catalysis,
+              polymer–inorganic composite materials, nanoparticle synthesis,
+              and thermal and photocatalytic routes.
             </p>
             <div className="profile-link-row">
               <a href={profileLinks.orcid} target="_blank" rel="noreferrer">
@@ -159,10 +159,10 @@ export default function AboutPage() {
 
         <section className="shell next-page">
           <p className="eyebrow">Next</p>
-          <Link href="/research">
+          <a href="/research.html">
             See the research programme and collaboration network{" "}
             <span aria-hidden="true">↗</span>
-          </Link>
+          </a>
         </section>
       </main>
       <FooterContact />

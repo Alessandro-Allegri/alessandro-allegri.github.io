@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { FooterContact } from "../components/FooterContact";
 import { SiteHeader } from "../components/SiteHeader";
 import { profileLinks } from "../data";
@@ -8,7 +7,7 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Contact Alessandro Allegri at the Department of Industrial Chemistry, University of Bologna.",
-  alternates: { canonical: "/contact" },
+  alternates: { canonical: "/contact.html" },
 };
 
 export default function ContactPage() {
@@ -82,15 +81,15 @@ export default function ContactPage() {
         <section className="shell page-links" aria-label="Explore the website">
           <p className="eyebrow">Explore</p>
           <div>
-            <Link href="/">
+            <a href="/">
               Home <span>Introduction and latest work ↗</span>
-            </Link>
-            <Link href="/about">
+            </a>
+            <a href="/about.html">
               About & CV <span>Biography and education ↗</span>
-            </Link>
-            <Link href="/research">
+            </a>
+            <a href="/research.html">
               Research <span>Interests and collaborations ↗</span>
-            </Link>
+            </a>
           </div>
         </section>
       </main>

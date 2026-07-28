@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { profileLinks } from "../data";
 
 export function FooterContact() {
@@ -35,10 +34,10 @@ export function FooterContact() {
         </div>
         <div className="footer-nav">
           <span>Explore</span>
-          <Link href="/">Home</Link>
-          <Link href="/about">About & CV</Link>
-          <Link href="/research">Research</Link>
-          <Link href="/contact">Contact</Link>
+          <a href="/">Home</a>
+          <a href="/about.html">About & CV</a>
+          <a href="/research.html">Research</a>
+          <a href="/contact.html">Contact</a>
         </div>
       </section>
       <div className="shell footer-base">
