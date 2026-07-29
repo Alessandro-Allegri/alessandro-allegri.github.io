@@ -54,12 +54,14 @@ export default function AboutPage() {
 
         <section className="shell bio-grid">
           <div className="bio-photo">
-            <img
-              src="/alessandro-allegri.jpg"
-              alt="Portrait of Alessandro Allegri"
-              width={960}
-              height={1280}
-            />
+            <div className="bio-photo-frame">
+              <img
+                src="/alessandro-allegri.jpg"
+                alt="Portrait of Alessandro Allegri"
+                width={960}
+                height={1280}
+              />
+            </div>
             <p>
               Junior Assistant Professor (fixed-term)
               <br />

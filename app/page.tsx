@@ -14,12 +14,12 @@ export default function Home() {
               Industrial chemistry · University of Bologna
             </p>
             <h1>
-              Catalysis for a <em>circular</em> chemical industry.
+              Catalysis for a <em>sustainable</em> chemical industry.
             </h1>
             <p className="hero-lede">
               I develop catalytic materials and process strategies that turn
               renewable feedstocks and industrial residues into useful
-              products—with Design of Experiments, process modelling, and
+              products — with Design of Experiments, process modelling, and
               machine learning guiding better decisions.
             </p>
             <div className="button-row">
@@ -38,12 +38,14 @@ export default function Home() {
           </div>
           <div className="portrait-wrap">
             <div className="portrait-frame">
-              <img
-                src="/alessandro-allegri.jpg"
-                alt="Alessandro Allegri"
-                width={960}
-                height={1280}
-              />
+              <div className="portrait-image-frame">
+                <img
+                  src="/alessandro-allegri.jpg"
+                  alt="Alessandro Allegri"
+                  width={960}
+                  height={1280}
+                />
+              </div>
             </div>
             <div className="portrait-caption">
               <span>Alessandro Allegri, PhD</span>

@@ -14,15 +14,15 @@ export const metadata: Metadata = {
 const researchAreas = [
   {
     number: "01",
-    title: "Catalytic biomass valorisation",
-    text: "Multifunctional and heterogeneous catalysts for transforming furfural, HMF, and related platform molecules into γ-valerolactone, FDCA, and other higher-value products.",
-    tags: ["Biomass", "Cascade reactions", "Continuous flow"],
-  },
-  {
-    number: "02",
     title: "Design of Experiments, modelling & machine learning",
     text: "Design of Experiments (DoE), response-surface methods, phenomenological modelling, and machine-learning approaches that turn experimental data into interpretable, robust process decisions.",
     tags: ["Design of Experiments", "Process modelling", "Machine learning"],
+  },
+  {
+    number: "02",
+    title: "Catalytic biomass valorisation",
+    text: "Multifunctional and heterogeneous catalysts for transforming furfural, HMF, and related platform molecules into γ-valerolactone, FDCA, and other higher-value products.",
+    tags: ["Biomass", "Cascade reactions", "Continuous flow"],
   },
   {
     number: "03",
@@ -87,7 +87,7 @@ export default function ResearchPage() {
           <div className="shell research-hero-inner">
             <div>
               <p className="eyebrow eyebrow-light">Research</p>
-              <h1>Designing better chemistry with experiments, models, and data.</h1>
+              <h1>Chemistry through experiments, models, and data.</h1>
             </div>
             <div className="research-hero-note">
               <span>Current aim</span>
@@ -205,7 +205,7 @@ export default function ResearchPage() {
         <div className="shell">
           <PublicationFeed
             eyebrow="Research impact"
-            title="Most cited publications"
+            title="Relevant publications"
             intro="A citation-sorted feed from the public Google Scholar profile. Counts are a dated snapshot and will evolve."
             publications={citedPublications}
             rssHref="/rss/cited.xml"
