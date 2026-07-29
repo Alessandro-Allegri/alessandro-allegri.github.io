@@ -13,6 +13,7 @@ export const profileLinks = {
   orcid: "https://orcid.org/0000-0003-4721-5167",
   scholar:
     "https://scholar.google.com/citations?user=HOxnOscAAAAJ&hl=en",
+  linkedin: "https://www.linkedin.com/in/alessandro-allegri-024a7925a",
   cv: "https://www.unibo.it/sitoweb/alessandro.allegri2/download/en/20211021%20CV%20Allegri.pdf",
 };
 

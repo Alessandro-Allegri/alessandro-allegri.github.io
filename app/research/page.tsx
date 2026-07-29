@@ -87,7 +87,7 @@ export default function ResearchPage() {
           <div className="shell research-hero-inner">
             <div>
               <p className="eyebrow eyebrow-light">Research</p>
-              <h1>Chemistry through experiments, models, and data.</h1>
+              <h1>Chemistry through experiments, models, and data</h1>
             </div>
             <div className="research-hero-note">
               <span>Current aim</span>
@@ -108,7 +108,7 @@ export default function ResearchPage() {
         <section className="shell research-areas" aria-labelledby="areas-title">
           <div className="research-index">
             <p className="eyebrow">Current interests</p>
-            <h2 id="areas-title">A connected research programme.</h2>
+            <h2 id="areas-title">A connected research programme</h2>
             <p>
               The same question runs through each strand: how can chemistry
               learn more from each experiment while using carbon, energy, and
@@ -138,7 +138,7 @@ export default function ResearchPage() {
             <div className="section-heading">
               <div>
                 <p className="eyebrow eyebrow-light">Collaboration network</p>
-                <h2 id="collab-title">Research is a team reaction.</h2>
+                <h2 id="collab-title">Research is a team reaction</h2>
               </div>
               <p>
                 Close collaborators and selected institutional relationships

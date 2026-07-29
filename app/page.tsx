@@ -14,7 +14,7 @@ export default function Home() {
               Industrial chemistry · University of Bologna
             </p>
             <h1>
-              Catalysis for a <em>sustainable</em> chemical industry.
+              Catalysis for a <em>sustainable</em> chemical industry
             </h1>
             <p className="hero-lede">
               I develop catalytic materials and process strategies that turn
@@ -82,7 +82,7 @@ export default function Home() {
           <div className="section-heading">
             <div>
               <p className="eyebrow">Research focus</p>
-              <h2>From molecules to processes.</h2>
+              <h2>From molecules to processes</h2>
             </div>
             <p>
               My work connects catalyst design with Design of Experiments

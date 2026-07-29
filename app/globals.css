@@ -416,17 +416,15 @@ img {
 
 .focus-grid article {
   min-height: 330px;
-  padding: 34px 32px 42px 0;
+  padding: 34px 32px 42px;
 }
 
 .focus-grid article + article {
   border-left: 1px solid var(--line);
-  padding-left: 32px;
 }
 
 .focus-grid .focus-featured {
   background: color-mix(in srgb, var(--sage) 15%, transparent);
-  padding-right: 32px;
 }
 
 .focus-grid span,

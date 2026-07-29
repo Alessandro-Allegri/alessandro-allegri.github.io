@@ -18,7 +18,7 @@ export default function ContactPage() {
         <section className="contact-hero shell">
           <div>
             <p className="eyebrow">Contact</p>
-            <h1>Start a conversation.</h1>
+            <h1>Start a conversation</h1>
           </div>
           <p>
             I welcome enquiries about research collaborations, academic
@@ -73,6 +73,9 @@ export default function ContactPage() {
               </a>
               <a href={profileLinks.scholar} target="_blank" rel="noreferrer">
                 Google Scholar <i>↗</i>
+              </a>
+              <a href={profileLinks.linkedin} target="_blank" rel="noreferrer">
+                LinkedIn <i>↗</i>
               </a>
             </div>
           </article>

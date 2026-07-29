@@ -6,7 +6,7 @@ export function FooterContact() {
       <section className="shell footer-grid" aria-labelledby="footer-contact">
         <div>
           <p className="eyebrow eyebrow-light">Contact</p>
-          <h2 id="footer-contact">Let’s discuss research.</h2>
+          <h2 id="footer-contact">Let’s discuss research</h2>
           <p className="footer-intro">
             For collaborations, student projects, and academic enquiries,
             please get in touch by email.
@@ -51,6 +51,9 @@ export function FooterContact() {
           </a>
           <a href={profileLinks.scholar} target="_blank" rel="noreferrer">
             Google Scholar
+          </a>
+          <a href={profileLinks.linkedin} target="_blank" rel="noreferrer">
+            LinkedIn
           </a>
         </div>
       </div>

@@ -42,7 +42,7 @@ export default function AboutPage() {
         <section className="page-hero shell">
           <div>
             <p className="eyebrow">About & CV</p>
-            <h1>Research with an industrial point of view.</h1>
+            <h1>Research with an industrial point of view</h1>
           </div>
           <p className="page-hero-lede">
             I am an industrial chemist interested in how carefully designed
@@ -72,7 +72,7 @@ export default function AboutPage() {
             <p className="eyebrow">Profile</p>
             <h2>
               Catalytic materials, designed experiments, and data-informed
-              process understanding.
+              process understanding
             </h2>
             <p>
               Alessandro Allegri is a researcher at the University of Bologna,
@@ -97,6 +97,9 @@ export default function AboutPage() {
               </a>
               <a href={profileLinks.unibo} target="_blank" rel="noreferrer">
                 University profile <span>Official page ↗</span>
+              </a>
+              <a href={profileLinks.linkedin} target="_blank" rel="noreferrer">
+                LinkedIn <span>Professional profile ↗</span>
               </a>
             </div>
           </div>
