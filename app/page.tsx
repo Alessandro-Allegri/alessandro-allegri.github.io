@@ -1,5 +1,6 @@
 import { FooterContact } from "./components/FooterContact";
 import { PublicationFeed } from "./components/PublicationFeed";
+import { ScopusMetrics } from "./components/ScopusMetrics";
 import { SiteHeader } from "./components/SiteHeader";
 import { latestPublications, profileLinks } from "./data";
 
@@ -56,27 +57,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="metrics-band" aria-label="Google Scholar metrics">
-          <div className="shell metrics-grid">
-            <div>
-              <strong>97</strong>
-              <span>Citations</span>
-            </div>
-            <div>
-              <strong>7</strong>
-              <span>h-index</span>
-            </div>
-            <div>
-              <strong>6</strong>
-              <span>i10-index</span>
-            </div>
-            <p>
-              Google Scholar metrics
-              <br />
-              checked 28 July 2026
-            </p>
-          </div>
-        </section>
+        <ScopusMetrics />
 
         <section className="shell home-intro">
           <div className="section-heading">
@@ -129,7 +110,7 @@ export default function Home() {
           <PublicationFeed
             eyebrow="Latest work"
             title="Recent publications"
-            intro="A date-sorted publication feed from Google Scholar, including recent articles and research datasets."
+            intro="The most recent Scopus-indexed articles, refreshed automatically every week."
             publications={latestPublications}
             rssHref="/rss/latest.xml"
           />

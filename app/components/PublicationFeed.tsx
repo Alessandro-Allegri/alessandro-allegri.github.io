@@ -1,5 +1,5 @@
 import type { Publication } from "../data";
-import { scholarUpdated } from "../data";
+import { scopus, scopusUpdated } from "../data";
 
 type PublicationFeedProps = {
   eyebrow: string;
@@ -36,7 +36,7 @@ export function PublicationFeed({
         {publications.map((publication, index) => (
           <article
             className="publication-card"
-            key={`${publication.title}-${publication.year}`}
+            key={publication.scopusId || `${publication.title}-${publication.year}`}
           >
             <div className="publication-index" aria-hidden="true">
               {numbered ? String(index + 1).padStart(2, "0") : publication.year}
@@ -52,14 +52,28 @@ export function PublicationFeed({
                 </a>
               </h3>
               <p>{publication.authors}</p>
+              <p className="publication-doi">
+                DOI:{" "}
+                {publication.doi ? (
+                  <a
+                    href={`https://doi.org/${publication.doi}`}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {publication.doi}
+                  </a>
+                ) : (
+                  <span>Not available in Scopus</span>
+                )}
+              </p>
             </div>
             <div className="publication-side">
               <time dateTime={String(publication.year)}>{publication.year}</time>
               {typeof publication.citations === "number" && (
-                <span>
+                <a href={publication.citedByUrl} target="_blank" rel="noreferrer">
                   {publication.citations} citation
                   {publication.citations === 1 ? "" : "s"}
-                </span>
+                </a>
               )}
               <span className="publication-arrow" aria-hidden="true">
                 ↗
@@ -69,8 +83,12 @@ export function PublicationFeed({
         ))}
       </div>
       <p className="source-note">
-        Publication order and citation counts reflect the public Google Scholar
-        profile, checked {scholarUpdated}. Citation counts change over time.
+        Publication data and citation counts from{" "}
+        <a href={scopus.profileUrl} target="_blank" rel="noreferrer">
+          Scopus
+        </a>
+        , updated {scopusUpdated}. Citation counts link to their Scopus records
+        and change over time.
       </p>
     </section>
   );

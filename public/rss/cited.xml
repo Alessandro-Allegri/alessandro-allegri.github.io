@@ -1,48 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
   <channel>
-    <title>Alessandro Allegri — Most cited publications</title>
-    <link>https://alessandro-allegri.github.io/research</link>
-    <description>Google Scholar publications by Alessandro Allegri, ordered by citation count.</description>
-    <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 12:00:00 GMT</lastBuildDate>
-    <atom:link href="https://alessandro-allegri.github.io/rss/cited.xml" rel="self" type="application/rss+xml" />
+    <title>Alessandro Allegri — most cited Scopus publications</title>
+    <link>https://alessandro-allegri.github.io/</link>
+    <description>The most cited Scopus-indexed publications by Alessandro Allegri.</description>
+    <lastBuildDate>Mon, 03 Aug 2026 13:18:50 GMT</lastBuildDate>
     <item>
-      <title>Photocatalytic Oxidation of HMF under Solar Irradiation: Coupling of Microemulsion and Lyophilization to Obtain Innovative TiO₂-Based Materials</title>
-      <link>https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=HOxnOscAAAAJ&amp;citation_for_view=HOxnOscAAAAJ:ufrVoPGSRksC</link>
-      <guid isPermaLink="false">HOxnOscAAAAJ:ufrVoPGSRksC</guid>
-      <description>Molecules 25 (22), 5225 (2020). 22 citations when checked 28 July 2026.</description>
-    </item>
-    <item>
-      <title>Effect of Capping Ligands for the Synthesis of Gold Nanoparticles and on the Catalytic Performance for the Oxidation of 5-Hydroxymethyl-2-furfural</title>
-      <link>https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=HOxnOscAAAAJ&amp;citation_for_view=HOxnOscAAAAJ:IjCSPb-OGe4C</link>
-      <guid isPermaLink="false">HOxnOscAAAAJ:IjCSPb-OGe4C</guid>
-      <description>Catalysts 13, 1–17 (2023). 12 citations when checked 28 July 2026.</description>
-    </item>
-    <item>
-      <title>Temperature-dependent activity of gold nanocatalysts supported on activated carbon in redox catalytic reactions</title>
-      <link>https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=HOxnOscAAAAJ&amp;citation_for_view=HOxnOscAAAAJ:LkGwnXOMwfcC</link>
-      <guid isPermaLink="false">HOxnOscAAAAJ:LkGwnXOMwfcC</guid>
-      <description>Catalysts 12 (3), 323 (2022). 12 citations when checked 28 July 2026.</description>
-    </item>
-    <item>
-      <title>Superacid Resin-Based Heterogeneous Catalysts for the Selective Acylation of 1,2-Methylenedioxybenzene</title>
-      <link>https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=HOxnOscAAAAJ&amp;citation_for_view=HOxnOscAAAAJ:2osOgNQ5qMEC</link>
-      <guid isPermaLink="false">HOxnOscAAAAJ:2osOgNQ5qMEC</guid>
-      <description>ChemSusChem 16 (21), e202300903 (2023). 11 citations when checked 28 July 2026.</description>
+      <title>Photocatalytic oxidation of HMF under solar irradiation: Coupling of microemulsion and lyophilization to obtain innovative TiO2-based materials</title>
+      <link>https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85096082344&amp;origin=inward</link>
+      <guid isPermaLink="false">10.3390/molecules25225225</guid>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 GMT</pubDate>
+      <description>First author: Allegri A.. Molecules 25 (22), 5225. DOI: 10.3390/molecules25225225.</description>
     </item>
     <item>
       <title>Ti/Zr/O Mixed Oxides for the Catalytic Transfer Hydrogenation of Furfural to GVL in a Liquid-Phase Continuous-Flow Reactor</title>
-      <link>https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=HOxnOscAAAAJ&amp;citation_for_view=HOxnOscAAAAJ:eQOLeE2rZwMC</link>
-      <guid isPermaLink="false">HOxnOscAAAAJ:eQOLeE2rZwMC</guid>
-      <description>ChemEngineering 7 (2), 23 (2023). 11 citations when checked 28 July 2026.</description>
+      <link>https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85153762166&amp;origin=inward</link>
+      <guid isPermaLink="false">10.3390/chemengineering7020023</guid>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 GMT</pubDate>
+      <description>First author: Saotta A.. Chemengineering 7 (2), 23. DOI: 10.3390/chemengineering7020023.</description>
+    </item>
+    <item>
+      <title>Superacid Resin-Based Heterogeneous Catalysts for the Selective Acylation of 1,2-Methylenedioxybenzene</title>
+      <link>https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85168272090&amp;origin=inward</link>
+      <guid isPermaLink="false">10.1002/cssc.202300903</guid>
+      <pubDate>Wed, 08 Nov 2023 00:00:00 GMT</pubDate>
+      <description>First author: Schiaroli N.. Chemsuschem 16 (21), e202300903. DOI: 10.1002/cssc.202300903.</description>
+    </item>
+    <item>
+      <title>Effect of Capping Ligands for the Synthesis of Gold Nanoparticles and on the Catalytic Performance for the Oxidation of 5-Hydroxymethyl-2-furfural</title>
+      <link>https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85163845927&amp;origin=inward</link>
+      <guid isPermaLink="false">10.3390/catal13060990</guid>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+      <description>First author: Liuzzi F.. Catalysts 13 (6), 990. DOI: 10.3390/catal13060990.</description>
     </item>
     <item>
       <title>Aquivion-Based Spray Freeze-Dried Composite Materials for the Cascade Production of γ-Valerolactone</title>
-      <link>https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=HOxnOscAAAAJ&amp;citation_for_view=HOxnOscAAAAJ:UeHWp8X0CEIC</link>
-      <guid isPermaLink="false">HOxnOscAAAAJ:UeHWp8X0CEIC</guid>
-      <description>ChemSusChem 17 (14), e202301683 (2024). 10 citations when checked 28 July 2026.</description>
+      <link>https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85195452219&amp;origin=inward</link>
+      <guid isPermaLink="false">10.1002/cssc.202301683</guid>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+      <description>First author: Allegri A.. Chemsuschem 17 (14), e202301683. DOI: 10.1002/cssc.202301683.</description>
+    </item>
+    <item>
+      <title>Promoter Effect of Pt on Zr Catalysts to Increase the Conversion of Furfural to γ-Valerolactone Using Batch and Continuous Flow Reactors: Influence of the Way of the Incorporation of the Pt Sites</title>
+      <link>https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&amp;scp=85194280039&amp;origin=inward</link>
+      <guid isPermaLink="false">10.1021/acs.energyfuels.4c01174</guid>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
+      <description>First author: García A.. Energy and Fuels 38 (11), 9849-9861. DOI: 10.1021/acs.energyfuels.4c01174.</description>
     </item>
   </channel>
 </rss>
-

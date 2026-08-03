@@ -91,7 +91,7 @@ img {
 .wordmark {
   align-items: center;
   display: inline-flex;
-  font-size: 0.86rem;
+  font-size: 0.94rem;
   font-weight: 700;
   gap: 12px;
   letter-spacing: 0.02em;
@@ -101,7 +101,7 @@ img {
 .wordmark small {
   color: var(--ink-soft);
   display: block;
-  font-size: 0.74rem;
+  font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   margin-top: 3px;
@@ -115,7 +115,7 @@ img {
   color: var(--paper);
   display: inline-flex;
   font-family: var(--serif);
-  font-size: 0.78rem;
+  font-size: 0.86rem;
   height: 38px;
   justify-content: center;
   letter-spacing: -0.02em;
@@ -125,7 +125,7 @@ img {
 .main-nav {
   align-items: center;
   display: flex;
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   font-weight: 650;
   gap: clamp(18px, 3vw, 40px);
   letter-spacing: 0.07em;
@@ -168,7 +168,7 @@ img {
   align-items: center;
   color: var(--terracotta);
   display: flex;
-  font-size: 0.78rem;
+  font-size: 0.86rem;
   font-weight: 750;
   gap: 10px;
   letter-spacing: 0.16em;
@@ -226,7 +226,7 @@ img {
   align-items: center;
   border: 1px solid var(--ink);
   display: inline-flex;
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   font-weight: 750;
   gap: 22px;
   justify-content: center;
@@ -266,7 +266,7 @@ img {
   border-top: 1px solid var(--line);
   color: var(--ink-soft);
   display: flex;
-  font-size: 0.86rem;
+  font-size: 0.96rem;
   gap: 10px;
   line-height: 1.5;
   margin-top: 52px;
@@ -322,7 +322,7 @@ img {
 .portrait-caption {
   align-items: center;
   display: flex;
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   justify-content: space-between;
   margin-top: 18px;
 }
@@ -360,7 +360,7 @@ img {
 .metrics-grid span,
 .metrics-grid p {
   color: var(--paper-deep);
-  font-size: 0.78rem;
+  font-size: 0.86rem;
   letter-spacing: 0.09em;
   line-height: 1.55;
   text-transform: uppercase;
@@ -370,6 +370,12 @@ img {
   justify-self: end;
   margin: 0;
   text-align: right;
+}
+
+.metrics-grid p a:hover,
+.metrics-grid p a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .home-intro {
@@ -401,7 +407,7 @@ img {
 .feed-note > p,
 .research-index > p {
   color: var(--ink-soft);
-  font-size: 0.98rem;
+  font-size: 1.06rem;
   line-height: 1.75;
   margin: 0;
 }
@@ -432,7 +438,7 @@ img {
 .contact-grid article > span,
 .page-links > .eyebrow {
   color: var(--terracotta);
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   font-weight: 750;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -448,7 +454,7 @@ img {
 
 .focus-grid p {
   color: var(--ink-soft);
-  font-size: 0.91rem;
+  font-size: 1rem;
   line-height: 1.7;
   margin: 0;
 }
@@ -456,7 +462,7 @@ img {
 .text-link {
   border-bottom: 1px solid currentColor;
   display: inline-flex;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 750;
   gap: 20px;
   letter-spacing: 0.07em;
@@ -485,7 +491,7 @@ img {
   background: var(--terracotta);
   color: var(--white);
   display: inline-flex;
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   font-weight: 750;
   gap: 9px;
   letter-spacing: 0.08em;
@@ -494,7 +500,7 @@ img {
 }
 
 .rss-link span {
-  font-size: 0.78rem;
+  font-size: 0.86rem;
 }
 
 .publication-list {
@@ -527,7 +533,7 @@ img {
   color: var(--ink-soft);
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.74rem;
+  font-size: 0.82rem;
   font-weight: 700;
   gap: 9px;
   letter-spacing: 0.09em;
@@ -562,9 +568,22 @@ img {
 
 .publication-body > p {
   color: var(--ink-soft);
-  font-size: 0.86rem;
+  font-size: 0.95rem;
   line-height: 1.55;
   margin: 0;
+}
+
+.publication-body > .publication-doi {
+  font-size: 0.86rem;
+  margin-top: 8px;
+  overflow-wrap: anywhere;
+}
+
+.publication-doi a,
+.source-note a {
+  color: var(--terracotta);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .publication-side {
@@ -576,13 +595,15 @@ img {
 }
 
 .publication-side time {
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 750;
 }
 
-.publication-side > span:not(.publication-arrow) {
+.publication-side > a {
   color: var(--ink-soft);
-  font-size: 0.76rem;
+  font-size: 0.84rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .publication-arrow {
@@ -593,7 +614,7 @@ img {
 
 .source-note {
   color: var(--ink-soft);
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   line-height: 1.6;
   margin: 16px 0 0;
 }
@@ -640,7 +661,7 @@ img {
 .footer-nav > span {
   color: var(--sage);
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   font-weight: 750;
   letter-spacing: 0.13em;
   margin-bottom: 9px;
@@ -651,7 +672,7 @@ img {
 .footer-details a,
 .footer-nav a {
   color: #e0ebf0;
-  font-size: 0.86rem;
+  font-size: 0.94rem;
   line-height: 1.65;
   margin: 0;
 }
@@ -669,7 +690,7 @@ img {
   border-top: 1px solid rgba(253, 240, 213, 0.18);
   color: #91b2c4;
   display: flex;
-  font-size: 0.74rem;
+  font-size: 0.82rem;
   justify-content: space-between;
   letter-spacing: 0.08em;
   min-height: 78px;
@@ -735,7 +756,7 @@ img {
 .bio-photo p {
   border-top: 1px solid var(--line);
   color: var(--ink-soft);
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   line-height: 1.55;
   margin: 16px 0 0;
   padding-top: 12px;
@@ -765,7 +786,7 @@ img {
   align-items: center;
   border-bottom: 1px solid var(--line);
   display: flex;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 750;
   justify-content: space-between;
   letter-spacing: 0.05em;
@@ -775,7 +796,7 @@ img {
 
 .profile-link-row span {
   color: var(--ink-soft);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   font-weight: 500;
 }
 
@@ -793,7 +814,7 @@ img {
 
 .cv-actions p {
   color: var(--ink-soft);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   margin: 0;
 }
 
@@ -825,7 +846,7 @@ img {
 .timeline-row time {
   color: var(--terracotta);
   font-family: var(--serif);
-  font-size: 0.95rem;
+  font-size: 1.03rem;
 }
 
 .timeline-row h4 {
@@ -836,7 +857,7 @@ img {
 }
 
 .timeline-row p {
-  font-size: 0.83rem;
+  font-size: 0.93rem;
   line-height: 1.55;
   margin: 0 0 10px;
 }
@@ -844,7 +865,7 @@ img {
 .timeline-row span,
 .timeline-row a {
   color: var(--ink-soft);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.55;
 }
 
@@ -898,7 +919,7 @@ img {
 
 .research-hero-note span {
   color: var(--sage);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   font-weight: 700;
   letter-spacing: 0.13em;
   text-transform: uppercase;
@@ -974,7 +995,7 @@ img {
 .area-list article > span {
   color: var(--terracotta);
   font-family: var(--serif);
-  font-size: 0.95rem;
+  font-size: 1.03rem;
 }
 
 .area-list h3 {
@@ -1003,7 +1024,7 @@ img {
 .area-list li {
   border: 1px solid var(--line);
   border-radius: 99px;
-  font-size: 0.74rem;
+  font-size: 0.82rem;
   padding: 7px 10px;
 }
 
@@ -1023,7 +1044,7 @@ img {
 
 .collaboration-kicker {
   color: var(--paper-deep);
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   font-weight: 750;
   letter-spacing: 0.14em;
   margin: 0 0 18px;
@@ -1047,7 +1068,7 @@ img {
 
 .collaborator-card > span {
   color: var(--terracotta);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   font-weight: 750;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1079,7 +1100,7 @@ img {
 
 .collaborator-links a {
   color: var(--ink-soft);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   font-weight: 750;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -1108,7 +1129,7 @@ img {
 
 .collaboration-grid span {
   color: #f3c6c9;
-  font-size: 0.75rem;
+  font-size: 0.83rem;
   font-weight: 750;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -1124,7 +1145,7 @@ img {
 
 .collaboration-grid p {
   color: #f3dfc9;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.68;
   margin: 0;
 }
@@ -1181,7 +1202,7 @@ img {
 
 .contact-grid article > p {
   color: var(--ink-soft);
-  font-size: 0.83rem;
+  font-size: 0.93rem;
   line-height: 1.65;
 }
 
@@ -1194,7 +1215,7 @@ img {
   align-items: center;
   border-bottom: 1px solid var(--line);
   display: flex;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   justify-content: space-between;
   padding: 11px 0;
 }
@@ -1232,7 +1253,7 @@ img {
   color: var(--ink-soft);
   display: block;
   font-family: var(--sans);
-  font-size: 0.76rem;
+  font-size: 0.84rem;
   margin-top: 14px;
 }
 
@@ -1407,11 +1428,11 @@ img {
   }
 
   .wordmark {
-    font-size: 0.82rem;
+    font-size: 0.9rem;
   }
 
   .main-nav {
-    font-size: 0.74rem;
+    font-size: 0.82rem;
     gap: 8px;
     scrollbar-width: none;
     white-space: nowrap;

@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     "Research in industrial chemistry, heterogeneous catalysis, Design of Experiments, machine learning, biomass valorisation, and circular chemical processes at the University of Bologna.",
   icons: {
     icon: [
-      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon.png", sizes: "512x512", type: "image/png" },
+      { url: "/favicon-32.png?v=2", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png?v=2", sizes: "512x512", type: "image/png" },
     ],
     apple: [
       {
-        url: "/apple-touch-icon.png",
+        url: "/apple-touch-icon.png?v=2",
         sizes: "180x180",
         type: "image/png",
       },

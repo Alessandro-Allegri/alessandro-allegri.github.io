@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { FooterContact } from "../components/FooterContact";
 import { PublicationFeed } from "../components/PublicationFeed";
+import { ScopusMetrics } from "../components/ScopusMetrics";
 import { SiteHeader } from "../components/SiteHeader";
 import { citedPublications } from "../data";
 
@@ -105,6 +106,8 @@ export default function ResearchPage() {
           </div>
         </section>
 
+        <ScopusMetrics />
+
         <section className="shell research-areas" aria-labelledby="areas-title">
           <div className="research-index">
             <p className="eyebrow">Current interests</p>
@@ -205,8 +208,8 @@ export default function ResearchPage() {
         <div className="shell">
           <PublicationFeed
             eyebrow="Research impact"
-            title="Relevant publications"
-            intro="A citation-sorted feed from the public Google Scholar profile. Counts are a dated snapshot and will evolve."
+            title="Most cited articles"
+            intro="The most cited Scopus-indexed articles, refreshed automatically every week."
             publications={citedPublications}
             rssHref="/rss/cited.xml"
             numbered
