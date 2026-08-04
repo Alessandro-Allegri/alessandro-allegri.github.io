@@ -2,7 +2,6 @@ import scopusData from "./scopus-data.json";
 
 export type Publication = {
   title: string;
-  authors: string;
   venue: string;
   year: number;
   date: string;

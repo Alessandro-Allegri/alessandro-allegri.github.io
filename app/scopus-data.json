@@ -2,7 +2,7 @@
   "source": "Scopus",
   "authorId": "57219921001",
   "profileUrl": "https://www.scopus.com/authid/detail.uri?authorId=57219921001",
-  "updatedAt": "2026-08-03T13:18:50.842Z",
+  "updatedAt": "2026-08-04T06:47:33.485Z",
   "metrics": {
     "documents": 14,
     "citations": 84,
@@ -11,7 +11,6 @@
   "recent": [
     {
       "title": "Unlocking the potential of gas-phase cross-ketonization toward a more sustainable production of valuable asymmetric ketones intermediates",
-      "authors": "First author: De Maron J.",
       "venue": "Sustainable Chemistry and Pharmacy 52, 102436",
       "year": 2026,
       "date": "2026-08-01",
@@ -24,7 +23,6 @@
     },
     {
       "title": "Continuous production of γ-valerolactone from furfural using optimized catalysts containing Zr and Nb",
-      "authors": "First author: García A.",
       "venue": "Fuel 411, 138062",
       "year": 2026,
       "date": "2026-05-01",
@@ -37,7 +35,6 @@
     },
     {
       "title": "Electronic properties of PVA‑PVAm ligands dictate mechanistic pathways in Au/AC‑catalyzed HMF oxidation",
-      "authors": "First author: Liuzzi F.",
       "venue": "Journal of Catalysis 456, 116770",
       "year": 2026,
       "date": "2026-04-01",
@@ -50,7 +47,6 @@
     },
     {
       "title": "Furfural Valorization to γ-Valerolactone over Zr/Sn Zeolite-Supported Catalysts in a Liquid-Phase Continuous Flow Reactor",
-      "authors": "First author: Saraceni V.",
       "venue": "Energy and Fuels 40 (1), 478-489",
       "year": 2026,
       "date": "2026-01-08",
@@ -63,7 +59,6 @@
     },
     {
       "title": "Tuning the properties and thermal treatment of Aquivion®/oxide hybrid catalysts for the one-pot production of γ-valerolactone from furfuryl alcohol",
-      "authors": "First author: Offidani M.",
       "venue": "Applied Catalysis A General 704, 120420",
       "year": 2025,
       "date": "2025-08-25",
@@ -76,7 +71,6 @@
     },
     {
       "title": "Preparation of Ru-Based Systems Through Metal Carbonyl Cluster Decomposition for the Base-Free 5-Hydroxymethylfurfural (HMF) Oxidation",
-      "authors": "First author: Liuzzi F.",
       "venue": "Molecules 30 (10), 2120",
       "year": 2025,
       "date": "2025-05-01",
@@ -91,7 +85,6 @@
   "mostCited": [
     {
       "title": "Photocatalytic oxidation of HMF under solar irradiation: Coupling of microemulsion and lyophilization to obtain innovative TiO2-based materials",
-      "authors": "First author: Allegri A.",
       "venue": "Molecules 25 (22), 5225",
       "year": 2020,
       "date": "2020-11-01",
@@ -104,7 +97,6 @@
     },
     {
       "title": "Ti/Zr/O Mixed Oxides for the Catalytic Transfer Hydrogenation of Furfural to GVL in a Liquid-Phase Continuous-Flow Reactor",
-      "authors": "First author: Saotta A.",
       "venue": "Chemengineering 7 (2), 23",
       "year": 2023,
       "date": "2023-04-01",
@@ -117,7 +109,6 @@
     },
     {
       "title": "Superacid Resin-Based Heterogeneous Catalysts for the Selective Acylation of 1,2-Methylenedioxybenzene",
-      "authors": "First author: Schiaroli N.",
       "venue": "Chemsuschem 16 (21), e202300903",
       "year": 2023,
       "date": "2023-11-08",
@@ -130,7 +121,6 @@
     },
     {
       "title": "Effect of Capping Ligands for the Synthesis of Gold Nanoparticles and on the Catalytic Performance for the Oxidation of 5-Hydroxymethyl-2-furfural",
-      "authors": "First author: Liuzzi F.",
       "venue": "Catalysts 13 (6), 990",
       "year": 2023,
       "date": "2023-06-01",
@@ -143,7 +133,6 @@
     },
     {
       "title": "Aquivion-Based Spray Freeze-Dried Composite Materials for the Cascade Production of γ-Valerolactone",
-      "authors": "First author: Allegri A.",
       "venue": "Chemsuschem 17 (14), e202301683",
       "year": 2024,
       "date": "2024-07-22",
@@ -156,7 +145,6 @@
     },
     {
       "title": "Promoter Effect of Pt on Zr Catalysts to Increase the Conversion of Furfural to γ-Valerolactone Using Batch and Continuous Flow Reactors: Influence of the Way of the Incorporation of the Pt Sites",
-      "authors": "First author: García A.",
       "venue": "Energy and Fuels 38 (11), 9849-9861",
       "year": 2024,
       "date": "2024-06-06",

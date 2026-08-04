@@ -51,7 +51,6 @@ export function PublicationFeed({
                   {publication.title}
                 </a>
               </h3>
-              <p>{publication.authors}</p>
               <p className="publication-doi">
                 DOI:{" "}
                 {publication.doi ? (

@@ -69,22 +69,6 @@ function findLink(entry, relation) {
   return httpsUrl(link?.["@href"]);
 }
 
-function formatAuthors(entry) {
-  const names = asArray(entry.author)
-    .map((author) => author?.authname || author?.["ce:indexed-name"])
-    .filter(Boolean);
-
-  if (names.length === 0 && entry["dc:creator"]) {
-    return `First author: ${entry["dc:creator"]}`;
-  }
-
-  if (names.length > 8) {
-    return `${names.slice(0, 8).join(", ")} et al.`;
-  }
-
-  return names.join(", ");
-}
-
 function formatVenue(entry) {
   let venue = entry["prism:publicationName"] || "Scopus-indexed publication";
   const volume = entry["prism:volume"];
@@ -116,7 +100,6 @@ function normalizePublication(entry) {
 
   return {
     title: entry["dc:title"] || "Untitled publication",
-    authors: formatAuthors(entry),
     venue: formatVenue(entry),
     year: Number.isFinite(year) ? year : new Date().getUTCFullYear(),
     date,
@@ -192,7 +175,7 @@ function makeRss(title, description, publications, updatedAt) {
       )}</guid>
       <pubDate>${date}</pubDate>
       <description>${escapeXml(
-        `${publication.authors}. ${publication.venue}.${doiText}`,
+        `${publication.venue}.${doiText}`,
       )}</description>
     </item>`;
     })
