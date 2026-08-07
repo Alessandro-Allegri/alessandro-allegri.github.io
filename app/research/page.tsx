@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Research",
   description:
     "Research in catalysis, Design of Experiments, process modelling, machine learning, circular chemistry, and industrial residue valorisation.",
-  alternates: { canonical: "/research.html" },
+  alternates: { canonical: "/research/" },
 };
 
 const researchAreas = [

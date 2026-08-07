@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "About & CV",
   description:
     "Biography, academic appointments, education, and curriculum vitae of Alessandro Allegri.",
-  alternates: { canonical: "/about.html" },
+  alternates: { canonical: "/about/" },
 };
 
 const education = [
@@ -164,7 +164,7 @@ export default function AboutPage() {
 
         <section className="shell next-page">
           <p className="eyebrow">Next</p>
-          <a href="/research.html">
+          <a href="/research/">
             See the research programme and collaboration network{" "}
             <span aria-hidden="true">↗</span>
           </a>

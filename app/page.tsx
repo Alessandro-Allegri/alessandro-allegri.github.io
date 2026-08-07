@@ -24,10 +24,10 @@ export default function Home() {
               machine learning guiding better decisions.
             </p>
             <div className="button-row">
-              <a className="button button-primary" href="/research.html">
+              <a className="button button-primary" href="/research/">
                 Explore my research <span aria-hidden="true">↗</span>
               </a>
-              <a className="button button-secondary" href="/contact.html">
+              <a className="button button-secondary" href="/contact/">
                 Get in touch
               </a>
             </div>
@@ -100,7 +100,7 @@ export default function Home() {
               </p>
             </article>
           </div>
-          <a className="text-link" href="/research.html">
+          <a className="text-link" href="/research/">
             Research interests and collaborations{" "}
             <span aria-hidden="true">→</span>
           </a>

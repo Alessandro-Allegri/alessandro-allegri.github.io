@@ -35,9 +35,9 @@ export function FooterContact() {
         <div className="footer-nav">
           <span>Explore</span>
           <a href="/">Home</a>
-          <a href="/about.html">About & CV</a>
-          <a href="/research.html">Research</a>
-          <a href="/contact.html">Contact</a>
+          <a href="/about/">About & CV</a>
+          <a href="/research/">Research</a>
+          <a href="/contact/">Contact</a>
         </div>
       </section>
       <div className="shell footer-base">

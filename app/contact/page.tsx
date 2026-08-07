@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Contact Alessandro Allegri at the Department of Industrial Chemistry, University of Bologna.",
-  alternates: { canonical: "/contact.html" },
+  alternates: { canonical: "/contact/" },
 };
 
 export default function ContactPage() {
@@ -87,10 +87,10 @@ export default function ContactPage() {
             <a href="/">
               Home <span>Introduction and latest work ↗</span>
             </a>
-            <a href="/about.html">
+            <a href="/about/">
               About & CV <span>Biography and education ↗</span>
             </a>
-            <a href="/research.html">
+            <a href="/research/">
               Research <span>Interests and collaborations ↗</span>
             </a>
           </div>

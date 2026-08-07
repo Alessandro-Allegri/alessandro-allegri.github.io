@@ -353,6 +353,8 @@ img {
   border-right: 1px solid rgba(250, 248, 244, 0.2);
   display: flex;
   gap: 12px;
+  justify-content: center;
+  min-width: 0;
 }
 
 .metrics-grid strong {

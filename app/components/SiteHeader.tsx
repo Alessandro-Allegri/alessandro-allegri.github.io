@@ -1,8 +1,8 @@
 const navigation = [
   { href: "/", label: "Home" },
-  { href: "/about.html", label: "About & CV" },
-  { href: "/research.html", label: "Research" },
-  { href: "/contact.html", label: "Contact" },
+  { href: "/about/", label: "About & CV" },
+  { href: "/research/", label: "Research" },
+  { href: "/contact/", label: "Contact" },
 ];
 
 export function SiteHeader() {
